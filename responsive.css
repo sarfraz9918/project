@@ -1,0 +1,41 @@
+@media(max-width:415px){
+
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        
+    }
+    .calculator-container {
+        text-align: center;
+        padding: 0px;
+        border: 1px solid #ccc;
+        border-radius: 1px;
+        font-size: 30PX;
+        overflow: hidden;
+        padding-block: 800px;
+        background-color: rgba(97, 128, 186, 0.059);
+    
+    }
+    .small{
+        font-size: 40px;
+    }
+    
+    button {
+        padding: 7px;
+        margin-top: 6px;
+        cursor: pointer;
+        overflow: hidden;
+    
+    }
+    #btn1{
+        font-size:25px;
+        background-color: rgb(232, 189, 189);
+    }
+    #result{
+        background-color: rgb(194, 122, 122);
+    }
+}
